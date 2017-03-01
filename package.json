@@ -2,9 +2,7 @@
   "name": "myapp",
   "version": "0.0.0",
   "license": "MIT",
-  "styles": {
-    
-  },
+  "styles": {},
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -24,7 +22,7 @@
     "@angular/platform-browser-dynamic": "^2.4.0",
     "@angular/router": "^3.4.0",
     "@progress/kendo-angular-buttons": "^0.20.1",
-    "@progress/kendo-theme-default": "^2.12.24",
+    "@progress/kendo-theme-default": "^2.12.25",
     "core-js": "^2.4.1",
     "rxjs": "^5.1.0",
     "zone.js": "^0.7.6"

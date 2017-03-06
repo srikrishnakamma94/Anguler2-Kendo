@@ -13,6 +13,9 @@ import { Component } from '@angular/core';
                 <li>
                   <a routerLink="/kendoButton">  kendoButton </a> 
                 </li>
+                <li>
+                  <a routerLink="/KendoPopUp">  KendoPopUp </a> 
+                </li>
               </ul>
               <router-outlet></router-outlet>
             `,

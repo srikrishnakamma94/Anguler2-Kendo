@@ -6,6 +6,7 @@ import { AboutComponent } from './components/about.component';
 import { KenodButtonComponent } from './components/kenodButton.component';
 import { KendoPopUpComponent } from './components/kendoPopUp.component';
 import { KendoGridComponent } from './components/kendoGrid.component';
+import { kendoGridPaginationComponent } from './components/kendoGridPagination.component';
 
 const appRoutes: Routes = [
     {
@@ -27,6 +28,10 @@ const appRoutes: Routes = [
     {
         path: 'KendoGrid',
         component: KendoGridComponent
+    },
+    {
+        path: 'kendoGridPagination',
+        component: kendoGridPaginationComponent
     }
 ];
 

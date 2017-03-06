@@ -19,6 +19,9 @@ import { Component } from '@angular/core';
                 <li>
                   <a routerLink="/KendoGrid">  KendoGrid </a> 
                 </li>
+                <li>
+                  <a routerLink="/kendoGridPagination">  kendoGridPagination </a> 
+                </li>
               </ul>
               <router-outlet></router-outlet>
             `,

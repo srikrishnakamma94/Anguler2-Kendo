@@ -5,6 +5,7 @@ import { UserComponent } from './components/user.component';
 import { AboutComponent } from './components/about.component';
 import { KenodButtonComponent } from './components/kenodButton.component';
 import { KendoPopUpComponent } from './components/kendoPopUp.component';
+import { KendoGridComponent } from './components/kendoGrid.component';
 
 const appRoutes: Routes = [
     {
@@ -22,6 +23,10 @@ const appRoutes: Routes = [
     {
         path: 'KendoPopUp',
         component: KendoPopUpComponent
+    },
+    {
+        path: 'KendoGrid',
+        component: KendoGridComponent
     }
 ];
 

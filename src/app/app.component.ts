@@ -16,6 +16,9 @@ import { Component } from '@angular/core';
                 <li>
                   <a routerLink="/KendoPopUp">  KendoPopUp </a> 
                 </li>
+                <li>
+                  <a routerLink="/KendoGrid">  KendoGrid </a> 
+                </li>
               </ul>
               <router-outlet></router-outlet>
             `,

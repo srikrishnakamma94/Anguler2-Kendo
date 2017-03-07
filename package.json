@@ -53,5 +53,13 @@
   },
   "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.0.",
   "main": "karma.conf.js",
-  "author": ""
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srikrishnakamma94/Anguler2-Kendo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/srikrishnakamma94/Anguler2-Kendo/issues"
+  },
+  "homepage": "https://github.com/srikrishnakamma94/Anguler2-Kendo#readme"
 }

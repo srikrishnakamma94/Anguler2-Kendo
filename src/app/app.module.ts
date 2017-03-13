@@ -15,11 +15,14 @@ import { KendoPopUpComponent } from './components/kendoPopUp.component';
 import { KendoGridComponent } from './components/kendoGrid.component';
 import { kendoGridPaginationComponent } from './components/kendoGridPagination.component';
 import { InLineComponent } from './components/grid/inLine/inLine.component';
+import { ButtonGroupComponent } from './components/button/buttonGroup.component';
+import { ButtonSelectionModeComponent } from './components/button/buttonSelectionMode.component';
+import { DropDownButtonComponent } from './components/button/dropDownButton.component';
 import { routing } from './app.routing';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, HttpModule, routing, ButtonsModule, PopupModule, GridModule ],
-  declarations: [AppComponent, UserComponent, AboutComponent, KenodButtonComponent, KendoPopUpComponent, KendoGridComponent, kendoGridPaginationComponent, InLineComponent],
+  declarations: [AppComponent, UserComponent, AboutComponent, KenodButtonComponent, KendoPopUpComponent, KendoGridComponent, kendoGridPaginationComponent, InLineComponent, ButtonGroupComponent, ButtonSelectionModeComponent, DropDownButtonComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
